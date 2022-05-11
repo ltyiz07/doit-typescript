@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    "module": "CommonJS",
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    "target": "es5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "moduleResolution": "node",
+    "outDir": "dist",                                   /* Specify an output folder for all emitted files. */
+    "baseUrl": ".",                                  /* Specify the base directory to resolve non-relative module names. */
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,                            /* Enable error reporting for expressions and declarations with an implied `any` type.. */
+    "paths": {"*": ["node_modules/*"] },
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+  },
+  "include": ["src/**/*"]
+}
